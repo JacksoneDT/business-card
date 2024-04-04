@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    font-family:"Poppins";
+    
+}
+
+.avatar , .card {
+    -webkit-box-shadow: 8px 0px 0px 0px #03045E, 0px 8px 0px 0px #0077B6, -8px 0px 0px 0px #00B4D8, 0px 0px 0px 8px #90E0EF, 5px 5px 7px 5px rgba(3,4,94,0); 
+box-shadow: 8px 0px 0px 0px #03045E, 0px 8px 0px 0px #0077B6, -8px 0px 0px 0px #00B4D8, 0px 0px 0px 8px #90E0EF, 5px 5px 7px 5px rgba(3,4,94,0);
+}
+
+.avatar {
+    width: 150px;
+    border: 2px double #CAF0F8;
+    cursor: pointer;
+    border: 5px inset ##03045E;
+    border-radius: 0px 40px 0px 40px;    
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+    background: #90E0EF;
+    color: #0077B6;
+    border-bottom: 6px solid #03045E;
+    text-shadow: 5px 0px 5px #CAF0F8;
+    font-size: large;
+    -webkit-border-radius: 40px 0px 40px 0px;
+    -moz-border-radius: 40px 0px 40px 0px;
+    border-radius: 40px 0px 40px 0px;
+     }
+     
+     .card :hover{
+         color: #03045E;
+         /* text-shadow: -15px 15px 13px #CAF0F8; */
+          text-shadow: 5px 0px 5px #CAF0F8;
+     }
+
+
+
+/* --federal-blue: #03045eff;
+--honolulu-blue: #0077b6ff;
+--pacific-cyan: #00b4d8ff;
+--non-photo-blue: #90e0efff;
+--light-cyan: #caf0f8ff; */
